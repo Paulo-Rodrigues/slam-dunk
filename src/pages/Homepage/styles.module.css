@@ -1,0 +1,7 @@
+.background {
+  height: 100%;
+  background-image: url('./images/jordan.jpg');
+  background-size: cover;
+  background-position: 72%;
+  background-repeat: no-repeat;
+}
