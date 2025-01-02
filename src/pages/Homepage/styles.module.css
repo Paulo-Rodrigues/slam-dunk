@@ -5,3 +5,11 @@
   background-position: 72%;
   background-repeat: no-repeat;
 }
+
+.contentContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
