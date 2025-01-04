@@ -1,0 +1,25 @@
+.card {
+  min-width: 350px;
+  background-color: rgba(18, 18, 18, 0.8);
+  border-radius: 10px;
+  padding-bottom: 1rem;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardActions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardBtn {
+  border-radius: 50px;
+}
+

@@ -3,25 +3,25 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import styles from './style.module.css';
 
 const HomeCard = () => (
-  <Card sx={{ minWidth: 350 }}>
-    <CardContent>
-      <Typography gutterBottom sx={{ color: 'text.secondary', fontSize: 14 }}>
-        Word of the Day
-      </Typography>
+  <Card className={styles.card}>
+    <CardContent className={styles.cardContent}>
       <Typography variant="h5" component="div">
-        be
+        Slam Dunk
       </Typography>
-      <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>adjective</Typography>
+      <Typography sx={{ color: 'text.secondary', mb: 1.5 }}>
+        adjective
+      </Typography>
       <Typography variant="body2">
         well meaning and kindly.
-        <br />
-        {'"a benevolent smile"'}
       </Typography>
     </CardContent>
-    <CardActions>
-      <Button size="small">Learn More</Button>
+    <CardActions className={styles.cardActions}>
+      <Button size="large" variant='contained' className={styles.cardBtn}>
+        Learn More
+      </Button>
     </CardActions>
   </Card>
 );
